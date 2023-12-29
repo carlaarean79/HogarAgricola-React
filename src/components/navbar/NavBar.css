@@ -1,0 +1,29 @@
+  .container-gral-navBar{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .link{
+    display: flex;
+   
+    padding: 5px;
+  }
+
+  .link a {
+    margin: 10px;
+    text-decoration: none;
+color: black;
+font-size: 0.7rem;
+  }
+
+  .search {
+    display: flex;
+    padding: 5px;
+    margin-right: 20px;
+  }
+  .search a {
+    margin-right: 10px;
+    text-decoration: none;
+color: black;
+font-size: 0.7rem;
+  }
