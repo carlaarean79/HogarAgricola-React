@@ -1,11 +1,9 @@
 .style-link-talleres{
-    display: flex;
+   
     align-items: center;
     justify-content: space-around;
     border-bottom: 0.5px solid black;
     width: 100%;
     min-height: 5vh;
-    position: fixed;
-    margin-top: 23vh;
     background-color: white;
 }

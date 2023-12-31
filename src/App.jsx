@@ -5,7 +5,7 @@ import Header from './components/header/Header'
 import Home from './components/Home/Home'
 import Talleres from './components/Talleres/Talleres'
 import Cuenta from './components/Cuenta/Cuenta'
-import Footer from './components/Footer/Footer'
+/* import Footer from './components/Footer/Footer' */
 
 function App() {
 
@@ -20,9 +20,9 @@ function App() {
           <Route path='talleres' element={<Talleres />} />
           <Route path='./cuenta' element={<Cuenta />} />
         </Routes>
-        <footer>
+     {/*    <footer>
           <Footer />
-        </footer>
+        </footer> */}
       </BrowserRouter>
     </>
   )
