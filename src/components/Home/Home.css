@@ -1,5 +1,9 @@
-.home-style img{
-   
+.home-style{
+   display: flex;
+   justify-content: center;
+  align-content: center;
+  width: 100vw;
     height: 100vh;
-    margin-top: 20vh;
+  
+   
 }

@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'LavishlyYours';
+    src: url('./src/assets/LavishlyYours-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Pompieri';
+    src: url('ruta/del/archivo/Pompieri-Regular.woff2') format('woff2'),
+        url('ruta/del/archivo/Pompieri-Regular.woff') format('woff');
+    /* Agrega otros formatos de fuente según sea necesario */
+    font-weight: normal;
+    font-style: normal;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(157, 135, 119);
+    width: 100vw;
+    height: 25vh;
+    border-radius: 20px;
+    opacity: 0.8;
+    margin-top: 40vh;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    /* Añadido para centrar el texto horizontalmente */
+
+    /* Añadido para alinear el contenido al centro verticalmente */
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner p {
+    font-family: 'LavishlyYours', sans-serif;
+    font-size: 8vw;
+    color: white;
+    margin: 0 0;
+    padding: 0;
+    position: relative;
+
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+}
+.subtitulo p {
+    color: white;
+    font-size: 3vw;
+    top: 17vh;
+    font-family: 'Pompieri', sans-serif;
+    position: absolute;
+}
+
+/* 
+@media (max-width: 620px){
+    .banner{
+        height: 25vh;
+    }
+    .banner p {
+        margin-top: 60px;
+    }
+}
+
+ @media (max-width:470px){
+    .banner{
+        height: 15vh;
+    }
+    .banner p {
+        margin-top: 20px;
+    }
+} 
+ */

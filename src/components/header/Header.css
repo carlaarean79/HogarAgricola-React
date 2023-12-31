@@ -1,4 +1,10 @@
 /*div contenedor general de la navbar*/
+.contenedor-total{
+  position: fixed;
+  width: 100vw;
+  z-index: 2;
+  top: 0;
+}
 .header {
   display: flex;
   flex-direction: column;
@@ -6,8 +12,10 @@
   width: 100vw;
   background-color: #05C9D5;
   position: relative;
-  position: static;
+  z-index: 2;
+ 
 }
+
 
 /*div contenedor del span*/
 .nav_toggle {
@@ -57,7 +65,9 @@ nav {
   background-color: white;
   width: 100vw;
   color: black;
+  
 }
+
 
 /*div contenedor primera parte de la nav*/
 .primera {
@@ -176,7 +186,10 @@ nav {
   .segunda {
     display: none;
   }
-
+.header-nav {
+  position: fixed;
+  z-index: 2;
+}
   .header-nav.visible,
   .primera.visible,
   .segunda.visible,
@@ -186,6 +199,7 @@ nav {
     width: 100vw;
     background-color: #05C9D5;
     transform: translate(-100%);
+  
   }
 
   .primera,
@@ -194,26 +208,26 @@ nav {
     flex-direction: column;
     width: 100vw;
     background-color: #05C9D5;
-
+    
   }
-
+  
   .primera a {
     text-align: left;
     margin: 0;
     font-size: 0.7rem;
     font-style: bold;
   }
-
-  .talleres {
-    display: none;
-  }
-
+  
+  
+  
   .tercera a {
     font-size: 0.7rem;
     font-style: bold;
   }
-
+  
   .tercera {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     border: none;
   }
 
@@ -226,6 +240,7 @@ nav {
     flex-direction: column;
     margin: 15px;
     width: 12vw;
+    cursor: pointer;
   }
 
   .nav_toggle span {
@@ -248,11 +263,6 @@ nav {
     transform: rotate(-45deg) translate(-5px, 1px);
   }
  
-  
-  
-  
-
-
   .icon {
     margin-right: 5px;
   }

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './Header.css';
 import { RiFileSearchFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
-import NavBarTalleres from "../NavBarTallereres/NavBarTalleres";
+
 
 
 
@@ -22,9 +22,11 @@ const open = () => {
   return (
 
     <>
+    <div className="contenedor-total">
+
       <div className='header'>
         <div className='logo-cuenta'>
-          <div className="nav_toggle" onClick={toggleMenu}>
+          <div className={`nav_toggle ${menuVisible ? 'open' : ''}`} onClick={toggleMenu}>
             <span></span>
             <span></span>
             <span></span>
@@ -35,19 +37,19 @@ const open = () => {
           </div>
         </div>
       </div>
-      <div className={`header-nav ${menuVisible && isOpen ? 'visible'  : ''}`} >
+      <div className={`header-nav ${!menuVisible ? 'visible' : ''}`} >
         <nav>
-          <div className={`primera ${menuVisible && isOpen  ? 'visible' : ''}`}>
+          <div className='primera'>
             <Link to='/' >HOME</Link>
             <Link to='Talleres' >SOBRE NOSOTROS</Link>
             <Link to='Talleres' className="talleres">TALLERES</Link>
           </div>
-          <div className={`segunda ${menuVisible && isOpen  ? 'visible' : ''}`}>
+          <div className='segunda'>
             <Link to='search' >BUSCAR</Link>
             <RiFileSearchFill className="icon" />
           </div>
         </nav>
-        <div className={`tercera ${menuVisible ? 'visible' : ''}`}>
+        <div className='tercera'>
           <Link to='crochet' >CROCHET</Link>
           <Link to='macrame' >MACRAME</Link>
           <Link to='porcelana' >PORCELANA</Link>
@@ -56,6 +58,7 @@ const open = () => {
           <Link to='peluqueria'>PELUQUERIA</Link>
         </div>
       </div>
+    </div>
     </>
 
   );

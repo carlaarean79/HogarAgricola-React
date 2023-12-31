@@ -1,12 +1,14 @@
 import React from 'react'
 import './Home.css'
+import Banner from '../Banner/Banner'
+import Carrusel from '../Carrusel/Carrusel'
 
 
 function Home() {
   return (
     <div className='home-style'>
-       
-     {/*    <img src='./src/assets/logo.png' alt='Logo' className='img-logo'  /> */}
+     <Carrusel/>  
+    <Banner/>
         
     </div>
   )

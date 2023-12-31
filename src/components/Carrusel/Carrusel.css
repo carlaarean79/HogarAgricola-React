@@ -1,0 +1,25 @@
+/* .carrusel{
+    display: flex;
+    border: solid 5px black;
+    width: 80vw;
+    height: 150vh; 
+} */
+
+.img-carousel{
+ margin-top: 20vh;  
+     display: flex;
+   flex-wrap: wrap;
+   width: 80vw;
+  height: 100vh;
+  overflow: hidden;
+      
+ } 
+
+ 
+ .img-carousel img{
+     justify-content: center;
+     width: 100vw;
+     height: 100vh;
+     object-fit: cover;
+ }
+
