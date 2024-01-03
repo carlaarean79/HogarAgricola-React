@@ -12,6 +12,7 @@
     font-style: normal;
 }
 
+/*div banner*/
 .banner {
     display: flex;
     flex-direction: column;
@@ -32,6 +33,7 @@
 
 }
 
+/*titulo banner*/
 .banner p {
     font-family: 'LavishlyYours', sans-serif;
     font-size: 8vw;
@@ -42,11 +44,13 @@
 
 }
 
+/*subtitulo banner*/
 .subtitulo {
     display: flex;
     justify-content: flex-end;
     width: 75%;
 }
+
 .subtitulo p {
     color: white;
     font-size: 3vw;
@@ -55,22 +59,23 @@
     position: absolute;
 }
 
-/* 
-@media (max-width: 620px){
+@media(max-width:600px){
     .banner{
-        height: 25vh;
+        height: 18vh;
+        
     }
-    .banner p {
-        margin-top: 60px;
+    .banner p{
+        font-size: 10vw;
+    }
+    .subtitulo p{
+        font-size: 3.5vw;
+        top: 12vh;
+        padding: 5px;
+    }
+    .subtitulo{
+        width: 90vw;
+
     }
 }
 
- @media (max-width:470px){
-    .banner{
-        height: 15vh;
-    }
-    .banner p {
-        margin-top: 20px;
-    }
-} 
- */
+

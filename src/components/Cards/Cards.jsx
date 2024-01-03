@@ -1,9 +1,17 @@
 import React from 'react'
 
-function Cards() {
+
+
+
+function CardsRecientes({tutorial}) {
   return (
-    <div>Cards</div>
+    <div className='tutoriales' key={tutorial.id}>
+      <h2>{tutorial.nombre}</h2>
+      <img>{tutorial.img}</img>
+    
+    
+    </div>
   )
 }
 
-export default Cards
+export default CardsRecientes;

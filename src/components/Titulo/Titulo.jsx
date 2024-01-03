@@ -1,9 +1,12 @@
 import React from 'react'
+import './Titulo.css'
 
-function Titulo() {
+function TituloCards({texto}) {
   return (
-    <div>Titulo</div>
+    <div className='titulo'>
+      <p>{texto}</p>
+    </div>
   )
 }
 
-export default Titulo
+export default TituloCards;

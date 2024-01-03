@@ -1,13 +1,13 @@
 import React from 'react'
 import './Banner.css';
-function Banner() {
+function Banner({titulo,subtitulo}) {
   return (
     <>
    
     <div className='banner'>
-       <p>Hogar Agrícola</p> 
+       <p>{titulo}</p> 
        <div className="subtitulo">
-        <p>El hogar del bricolage</p>
+        <p>{subtitulo}</p>
        </div>
        </div>
     

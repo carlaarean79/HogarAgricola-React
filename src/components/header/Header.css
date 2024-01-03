@@ -1,10 +1,11 @@
 /*div contenedor general de la navbar*/
-.contenedor-total{
+.contenedor-total {
   position: fixed;
   width: 100vw;
   z-index: 2;
   top: 0;
 }
+
 .header {
   display: flex;
   flex-direction: column;
@@ -13,7 +14,7 @@
   background-color: #05C9D5;
   position: relative;
   z-index: 2;
- 
+
 }
 
 
@@ -65,7 +66,7 @@ nav {
   background-color: white;
   width: 100vw;
   color: black;
-  
+
 }
 
 
@@ -141,12 +142,14 @@ nav {
     font-size: 0.9rem;
   }
 
+  /*contenedores de navbar*/
   .primera,
   .segunda,
   .tercera {
     width: 100%;
   }
 
+  /*enlaces navbar*/
   .primera a {
     margin-left: 5px;
     font-size: 0.6rem;
@@ -166,7 +169,7 @@ nav {
 }
 
 /*media query aplicada a partir de 360px para menú hamburguesa*/
-@media (max-width: 360px) {
+@media (max-width: 460px) {
 
   .logo-cuenta {
     position: relative;
@@ -186,10 +189,13 @@ nav {
   .segunda {
     display: none;
   }
-.header-nav {
-  position: fixed;
-  z-index: 2;
-}
+
+  .header-nav {
+    position: fixed;
+    z-index: 2;
+  }
+
+  /*clases para mostrar u ocultar el menú hamburguesa*/
   .header-nav.visible,
   .primera.visible,
   .segunda.visible,
@@ -199,7 +205,7 @@ nav {
     width: 100vw;
     background-color: #05C9D5;
     transform: translate(-100%);
-  
+
   }
 
   .primera,
@@ -208,33 +214,34 @@ nav {
     flex-direction: column;
     width: 100vw;
     background-color: #05C9D5;
-    
+    position: relative;
+
   }
-  
+
   .primera a {
     text-align: left;
     margin: 0;
     font-size: 0.7rem;
     font-style: bold;
   }
-  
-  
-  
+
   .tercera a {
     font-size: 0.7rem;
     font-style: bold;
   }
-  
+
   .tercera {
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
     border: none;
+    height: 50vh;
+    z-index: 2;
   }
 
   nav {
-    border-bottom: none;
+    border: none;
+
   }
 
+  /*menú hamburguesa*/
   .nav_toggle {
     display: flex !important;
     flex-direction: column;
@@ -253,16 +260,20 @@ nav {
     transition: all 0.2s linear;
 
   }
-  .nav_toggle.open > span{
+
+  .nav_toggle.open>span {
     transform: rotate(45deg) translate(0px, 0px);
   }
-  .nav_toggle.open > span:nth-child(2){
+
+  .nav_toggle.open>span:nth-child(2) {
     display: none;
   }
-  .nav_toggle.open > span:nth-child(3){
+
+  .nav_toggle.open>span:nth-child(3) {
     transform: rotate(-45deg) translate(-5px, 1px);
   }
- 
+
+  /*icono search*/
   .icon {
     margin-right: 5px;
   }
