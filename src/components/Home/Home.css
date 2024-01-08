@@ -1,10 +1,15 @@
-.home-style{
-   display: flex;
-   justify-content: center;
+.home-style {
+  display: flex;
+  justify-content: center;
   align-content: center;
   width: 100vw;
-    height: auto;
-    background-color: #9d8777c2;
-  
-   
+  height:400vh;
+  background-color: #9d8777c2;
+
+
+}
+
+.containerCards{
+  display: flex;
+
 }

@@ -14,7 +14,6 @@
   background-color: #05C9D5;
   position: relative;
   z-index: 2;
-
 }
 
 
@@ -146,7 +145,7 @@ nav {
   .primera,
   .segunda,
   .tercera {
-    width: 100%;
+    width: 100vw;
   }
 
   /*enlaces navbar*/
@@ -193,6 +192,7 @@ nav {
   .header-nav {
     position: fixed;
     z-index: 2;
+    
   }
 
   /*clases para mostrar u ocultar el menú hamburguesa*/
@@ -204,7 +204,7 @@ nav {
     flex-direction: column;
     width: 100vw;
     background-color: #05C9D5;
-    transform: translate(-100%);
+    transform: translate(-100vw);
 
   }
 
@@ -215,6 +215,7 @@ nav {
     width: 100vw;
     background-color: #05C9D5;
     position: relative;
+    
 
   }
 
@@ -230,11 +231,12 @@ nav {
     font-style: bold;
   }
 
-  .tercera {
+   .tercera {
     border: none;
     height: 50vh;
     z-index: 2;
-  }
+    margin: 0;
+  } 
 
   nav {
     border: none;

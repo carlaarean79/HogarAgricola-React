@@ -1,9 +1,17 @@
 import React from 'react'
+import CardsRecientes from '../Cards/Cards'
+import './Talleres.css'
 
 
 function Talleres() {
   return (
-    <div></div>
+  
+      <div className="div">
+      <CardsRecientes/>
+
+      </div>
+   
+  
   )
 }
 

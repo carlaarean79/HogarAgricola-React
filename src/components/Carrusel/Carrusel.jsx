@@ -17,7 +17,7 @@ function Carrusel() {
         <img src="https://elcuboarte.com/wp-content/uploads/2019/01/45621524_1786058168169155_4013447759003648000_n.jpg"  />
          
            
-        <img src="https://scontent.fjni2-2.fna.fbcdn.net/v/t39.30808-6/311273276_1813250852344210_4995163391084133081_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeGlzRQ2jSRxnUTVVLiiFVgwbnsWZe19LqhuexZl7X0uqGaDGKdhoK0-PljObQ7GLZ8r2xFnjKyY3QNFwOt9KPkz&_nc_ohc=gA7qcf11GXoAX8DtE8Q&_nc_ht=scontent.fjni2-2.fna&oh=00_AfD19expkXcB8KsHpsEe6g5pHi0XA0zPHyLrDGrmrU7olg&oe=6595F0B0" />
+        <img src="https://cdn.shopify.com/s/files/1/0400/0904/0038/files/image2_b37a5c4c-20e3-44e9-93d5-0dcf05cb4b0e_600x600.jpg?v=1693599911" />
           
     </Carousel>
     </div>
